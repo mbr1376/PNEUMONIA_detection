@@ -52,7 +52,7 @@ class Train:
     def sampel_image(self):
         
         im=[]
-        new_dir = 'chest_xray/train'
+        new_dir = '../chest_xray/train'
 
         for image in os.listdir(new_dir):
             

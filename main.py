@@ -64,8 +64,8 @@ class Mlp(QMainWindow):
         self.ui=Test_widghet();
         self.ui.show()
     def f_train(self):
-        train = self.model.get_data('chest_xray/train')
-        val = self.model.get_data('chest_xray/val')
+        train = self.model.get_data('../chest_xray/train')
+        val = self.model.get_data('../chest_xray/val')
         history ,model_train=self.model.func_train(train, val)
         model_train.save('model.h5')
        #
