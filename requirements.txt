@@ -1,0 +1,13 @@
+
+pip install pyqt5
+pip install sys
+pip install matplotlib
+pip install cv2
+pip install random
+pip install numpy
+pip install time
+pip install sklearn
+pip install os
+pip install tensorflow v2
+
+
